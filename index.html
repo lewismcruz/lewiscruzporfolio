@@ -1,18 +1,65 @@
-
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <!-- What is the HTML5 rule for closing the meta tag? do we 
+         use the / slash or not?
+         
+         I think you can just use both. But HTML5 will allow you to 
+         not use a / in closing for the tag.
+    
+        -->
+    <!-- brief plain language description of the contents of web page.
+      Should be no more than 150-200 characters in length.  Should provide
+      a good overview of the page's content.
+    
+    
+    -->
     <meta name="description"
       content="Lewis Cruz Jr. Web Developer in Houston, TX.
-              #web,">
+              #web," />
+
+    <meta name="description" content="Lewis Cruz's resume and web design
+      samples" />
               <!-- What are hash tags for or what is the proper way to
                 input meta name tags -->
+    
+    <!-- 
+      Supplement the title and description of the document with a list
+      of comma-separated keywords that would be useful in indexing your
+      document.
+
+      Search engines largely abandoned keywords in practice due to spam
+      and deterioration.
+    
+      So now more of a focus on visible data in the contents themselves
+      of the web pages.
+
+      List of keywords should list 10-15 words and phrases, separated by
+      commas, that describe a particular page of your website.
+      List should be ranked by importance, with the most important word
+      or phrase listed first.
+
+
+
+
+    -->
+    
     <meta name="keywords"
     content="fullstack web development, JavaScript developers, software developers, HTML5 developers,
-            CSS, Bootstrap, Node.js">
-    <title>Lewis Cruz - About Me</title>
+            CSS, Bootstrap, Node.js" />
+
+    <meta name="author" content="Lewis Cruz" />
+
+    <meta name="copyright" content="2020, LMC Media,LLC" />
+
+
+<title>Lewis Cruz - About Me</title>
    
 <!-- We need to bring in the bootstrap CSS -->
 <link
@@ -22,10 +69,14 @@ integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9If
 crossorigin="anonymous"
 />
 
+<style>
+  hr {color: blue;}
+</style>
 
 </head>
 <body>
 
+  <header>
     <!-- NavBar (copied and pasted from WC3) -->
   <!-- Static navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -33,7 +84,8 @@ crossorigin="anonymous"
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-  
+
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
@@ -45,45 +97,35 @@ crossorigin="anonymous"
         <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
+       <li class="nav-item">
       <!--    <a class="nav-link disabled" href="#">Disabled</a>  -->
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-     <!--  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>  -->
-      </form>
+      
     </div>
   </nav>
 
+</header>
+
+  <main>
   <!-- Main Body goes in Container -->
-  <div class="container">
+ <div class="container">
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-sm" style="margin-left: 90px;">
       <!-- The content in this div gets wrapped in a card -->
         <div class="card">
           <div class="card-body">
             <h2>About Me</h2>
+            <hr>
           </div>
         </div>
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-3">
-        <img class="img img-thumbnail" src="http://placehold.it/200x200">
+      <div class="col-sm" style="margin-left: 90px;">
+        <img class="img img-thumbnail" src="happy.jpg" height="200px" width="200px">
       </div>
-      <div class="col-lg-9">
+      <div class="col-sm" style="margin-right: 90px;">
         <!-- <h2>The Greatest Website Ever Made</h2> --> 
         <p>
           I live in Houston, TX but have been able to travel throughout the United States,
@@ -113,8 +155,8 @@ crossorigin="anonymous"
       
           <p>as well as exploring other computer programming languages, like Python, Java, and C++.</p>
            
-
-      <div class="col-lg-3">
+<!-- 
+      <div class="col-sm">
         <div class="card" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
@@ -125,32 +167,49 @@ crossorigin="anonymous"
             </div>
           </div>
       </div>
-    </div>
-    <br>
-     
-        <footer>
-      <h2>Houston, TX</h2>
-      <p>Address</p>
-      <p>Phone</p>
-      
+--> 
+<div class="col-sm">
+  <div class="card" style="width: 18rem;">
+  <!-- The content in this div gets wrapped in a card -->
+      <div class="card-body">
+          <h2>Houston, TX</h2>
+          <h3>Address</h3>
+          <h3>Phone</h3>
+       </div>
+   </div>
+</div>
 
-    </footer>
+
+    </main>
+<!-- Footer has different alignment default settings 
+     Need to find how Bootstrap aligns footer items by default.
+-->
+    <footer>
+
     
+       
+    </footer>
+
+   </div>
+    <br>
+
     <!-- scripts required to allow some Bootstrap components to work. -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous">
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous">
+    </script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous">
+    </script>
+
+
 </body>
 </html>
