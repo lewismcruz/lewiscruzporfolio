@@ -1,196 +1,114 @@
- 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-
-    <!-- What is the HTML5 rule for closing the meta tag? do we 
-         use the / slash or not?
-         
-         I think you can just use both. But HTML5 will allow you to 
-         not use a / in closing for the tag.
-    
-        -->
-    <!-- brief plain language description of the contents of web page.
-      Should be no more than 150-200 characters in length.  Should provide
-      a good overview of the page's content.
-    
-    
-    -->
-    <meta name="description"
-      content="Lewis Cruz Jr. Web Developer in Houston, TX.
-              #web," />
-
-    <meta name="description" content="Lewis Cruz's resume and web design
-      samples" />
-              <!-- What are hash tags for or what is the proper way to
-                input meta name tags -->
-    
-    <!-- 
-      Supplement the title and description of the document with a list
-      of comma-separated keywords that would be useful in indexing your
-      document.
-
-      Search engines largely abandoned keywords in practice due to spam
-      and deterioration.
-    
-      So now more of a focus on visible data in the contents themselves
-      of the web pages.
-
-      List of keywords should list 10-15 words and phrases, separated by
-      commas, that describe a particular page of your website.
-      List should be ranked by importance, with the most important word
-      or phrase listed first.
-
-
-
-
-    -->
-    
-    <meta name="keywords"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lewis Cruz's resume and web design samples.">   
+  <meta name="keywords"
     content="fullstack web development, JavaScript developers, software developers, HTML5 developers,
-            CSS, Bootstrap, Node.js" />
-
-    <meta name="author" content="Lewis Cruz" />
-
-    <meta name="copyright" content="2020, LMC Media,LLC" />
-
-
-<title>Lewis Cruz - About Me</title>
+    CSS, Bootstrap, Node.js">
+  <meta name="author" content="Lewis Cruz">
+  <meta name="copyright" content="LMC 2020">
+  
+  <title>Lewis Cruz - About Me</title>
    
-<!-- We need to bring in the bootstrap CSS -->
-<link
-rel="stylesheet"
-href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-crossorigin="anonymous"
-/>
+   <!-- We need to bring in the bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+   integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+   crossorigin="anonymous"/>
 
-<style>
-  hr {background-color: blue;}
-</style>
+   <!-- Change hr element color to blue. -->
+   <style>hr {background-color: blue;}</style>
+
 
 </head>
 <body>
 
   <header>
     <!-- NavBar (copied and pasted from WC3) -->
-  <!-- Static navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#"><h1>Lewis Cruz</h1></a>
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
+    <!-- Static navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#"><h1>Lewis Cruz</h1></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-           <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-           <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-       </li>
-       <li class="nav-item">
-      <!--    <a class="nav-link disabled" href="#">Disabled</a>  -->
-        </li>
-      </ul>
-      
-    </div>
-  </nav>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+   </nav>
 
-</header>
+  </header>
 
   <main>
   <!-- Main Body goes in Container -->
 
- <div class="container">
+  <div class="container">
     <div class="row">
       <div class="col-sm" style="margin-left: 90px;">
         <div class="shadow p-3 mb-5 bg-white rounded">
-      <!-- The content in this div gets wrapped in a card -->
-        <div class="card">
-          <div class="card-body">
-            <h2>About Me</h2>
-            <hr>
+          <!-- The content in this div gets wrapped in a card -->
+          <div class="card">
+            <div class="card-body">
+              <h2>About Me</h2>
+              <hr>
+            </div>
           </div>
         </div>
       </div>
       </div>
     </div>
-    <div class="row">
-      
+    <div class="row">      
       <div class="col-sm" style="margin-left: 90px;">
         <div class="shadow p-3 mb-5 bg-white rounded">
-        <img class="img img-thumbnail" src="happy.jpg" height="200px" width="200px">
+          <img class="img img-thumbnail" src="happy.jpg" height="200" width="200" alt="Smiley face">
+         </div>
+        </div>
       </div>
-    </div>
       <div class="col-sm" style="margin-right: 90px;">
         <div class="shadow p-3 mb-5 bg-white rounded">
-        <!-- <h2>The Greatest Website Ever Made</h2> --> 
-        <p>
-          I live in Houston, TX but have been able to travel throughout the United States,
-          through work and school.
-        </p>
+          
+          <p>
+            A long time native of Houston, TX but been able to travel throughout the US and to Germany.
+          </p>
       
-        <p>I enjoy:</p>
-         <ul>
+          <p>I enjoy:</p>
+          
+          <ul>
             <li>Continuously learning about web programming</li>
             <li>photography</li>
             <li>reading</li>
             <li>camping</li>
             <li>wood working</li>
             <li>fixing things</li>
-         </ul>
+          </ul>
       
-        <p>I am currently pursing Jr. Web Developer opportunities where I can apply my technical skills using:</p>
+          <p>I am currently pursing Jr. Web Developer opportunities where I can apply my technical skills using:</p>
           
-        <ul>
+          <ul>
             <li>HTML5</li>
             <li>CSS</li>
             <li>JavaScript</li>
             <li>Bootstrap</li>
             <li>Web responsive design</li>
             <li>GitHub</li>
-        </ul>
-      
-          <p>as well as exploring other computer programming languages, like Python, Java, and C++.</p>
+          </ul>
+
         </div>
-<!-- 
-      <div class="col-sm">
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
       </div>
---> 
-
-
-
     </main>
 
-<!-- Footer has different alignment default settings 
-     Need to find how Bootstrap aligns footer items by default.
--->
-    <footer>
-
-    
-       
-    </footer>
-
-   </div>
-    <br>
+    <footer class="text-center">copyright LMC 2020</footer>
 
     <!-- scripts required to allow some Bootstrap components to work. -->
     <script
@@ -208,7 +126,6 @@ crossorigin="anonymous"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous">
     </script>
-
 
 </body>
 </html>

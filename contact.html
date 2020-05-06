@@ -3,14 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-      content="Lewis Cruz Jr. Web Developer in Houston, TX.
-              #web,">
-              <!-- What are hash tags for or what is the proper way to
-                input meta name tags -->
+    <meta name="description" content="Lewis Cruz's website contact page.">   
     <meta name="keywords"
-    content="fullstack web development, JavaScript developers, software developers, HTML5 developers,
-            CSS, Bootstrap, Node.js">
+      content="fullstack web development, JavaScript developers, software developers, HTML5 developers,
+      CSS, Bootstrap, Node.js">
+    <meta name="author" content="Lewis Cruz">
+    <meta name="copyright" content="LMC 2020">
     
     <title>Contact Lewis Cruz</title>
 
@@ -18,82 +16,80 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
     crossorigin="anonymous">
 
-    <style>
-      hr {background-color: blue;}
-    </style>
+    <!-- Change hr element color to blue. -->
+    <style>hr {background-color: blue;}</style>
+
     
 </head>
 <body>
       <!-- NavBar (copied and pasted from WC3) -->
-  <!-- Static navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#"><h1>Lewis Cruz</h1></a>
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <!-- Static navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#"><h1>Lewis Cruz</h1></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-           <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-           <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-       </li>
-      
-        </li>
-        <li class="nav-item">
-      <!--    <a class="nav-link disabled" href="#">Disabled</a>  -->
-        </li>
-      </ul>
-      
-    </div>
-  </nav>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav mr-auto">
+           <li class="nav-item active">
+             <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="portfolio.html">Portfolio</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="contact.html">Contact</a>
+           </li>
+         </ul>
+       </div>
+      </nav>
 
-  <!-- Main Body goes in Container -->
-  <div class="container">
-    <div class="row">
-      <div class="col-sm" style="margin-left: 90px;">
-        <div class="shadow p-3 mb-5 bg-white rounded">
-      <!-- The content in this div gets wrapped in a card -->
-        <div class="card">
-          <div class="card-body">
-            <h2>Contact</h2>
-            <hr></hr>
+      <!-- Main Body goes in Container -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm" style="margin-left: 90px;">
+            <div class="shadow p-3 mb-5 bg-white rounded">
+              <!-- The content in this div gets wrapped in a card -->
+              <div class="card">
+                <div class="card-body">
+                  <h2>Contact</h2>
+                  <hr>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        </div>
-      </div>
-    </div>
     
 
-    <form>
-      <div class="form-group">
-        <label for="exampleFormControlInput1">Name</label>
-        <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlInput1">E-mail</label>
-        <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@email.com">
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlTextarea1">Message</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
+          <form>
+            <div class="form-group" style="margin-left: 90px;">
+              <div class="shadow p-3 mb-5 bg-white rounded"> 
+                <label for="exampleFormControlInput1">Name</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+              </div>
+            </div>
+            <div class="form-group" style="margin-left: 90px;">
+              <div class="shadow p-3 mb-5 bg-white rounded">
+                <label for="exampleFormControlInput1">E-mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@email.com">
+              </div>
+            </div>
+            <div class="form-group" style="margin-left: 90px;">
+              <div class="shadow p-3 mb-5 bg-white rounded">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </div>
 
-    </form>
-      </div>
-
-      
-     
-      
-
-    <footer>
+            <a href="underconstruct.html" role="button" class="btn btn-primary" style="margin-left: 90px;" >Submit</a>
         
-      </footer>
+          </form>
+      </div>
+
+      
+
+      <footer class="text-center">copyright LMC 2020</footer>
       
       <!-- scripts required to allow some Bootstrap components to work. -->
       <script
@@ -111,10 +107,6 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"
       ></script>
-
-
-
-
 
 </body>
 </html>
