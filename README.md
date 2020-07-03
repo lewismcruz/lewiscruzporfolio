@@ -14,7 +14,7 @@ Celest Bembry
 Lewis Cruz
 
 
-Click here to test it out: ![Spritzy Drink App](https://celestejbembry.github.io/Project-1/)
+Click here to test it out: [Spritzy Drink App](https://celestejbembry.github.io/Project-1/)
 
 ## funACTIV
 funACTIV Fitness and Nutrition metrics tracking site and application.
@@ -25,7 +25,7 @@ Celeste Bembry
 Brandon Lopez
 Lewis Cruz
 
-Click here to test it out: funACTIV App
+Click here to test it out: [funACTIV App](https://agile-thicket-05064.herokuapp.com/)
 
 # Interests and Hobbies
 
