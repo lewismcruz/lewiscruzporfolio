@@ -9,8 +9,8 @@ Here is the Express.js version of my portfolio:
 ## Spritzy Drink and Cocktail Suggestion App
 Celeste Bremby and I created this application to help busy professionals discover new mixed drink and cocktail recipes for social and networking events.
 
-Team contributors:
-Celest Bembry
+Team contributors:</br>
+Celest Bembry</br>
 Lewis Cruz
 
 
@@ -19,10 +19,10 @@ Click here to test it out: [Spritzy Drink App](https://celestejbembry.github.io/
 ## funACTIV
 funACTIV Fitness and Nutrition metrics tracking site and application.
 
-Team contributors:
-Joel Truitt
-Celeste Bembry
-Brandon Lopez
+Team contributors:</br>
+Joel Truitt</br>
+Celeste Bembry</br>
+Brandon Lopez</br>
 Lewis Cruz
 
 Click here to test it out: [funACTIV App](https://agile-thicket-05064.herokuapp.com/)
