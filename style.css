@@ -1,8 +1,5 @@
-
-
-
 hr {
-    background-color: blue;
+    background-color: purple;
 }
 
 
@@ -21,3 +18,113 @@ hr {
     box-shadow: inset 0 0 0.5em #124,
                 inset 0 0.5em 1em rgba(0,0,0,0.4);
 }
+
+
+
+
+/* Use keyframes for animations and transforms */
+/* Keep CSS commented out until able to test it first
+   Need to see how these rules affect specificty of other style rules being used.
+=== Defining a keyframe at-rule
+Try different colors
+
+Want a "light theme" with white background and "dark theme" style with dark navy color*/
+
+/* Mobile styles */
+
+.wow-grid {
+    margin: 0 1rem;
+}
+
+
+.wow-grid__item {
+    animation: fly-in 600ms ease-in;
+}
+
+
+.card {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    background-color: white;
+    color: hsl(210, 15%, 20%);
+    box-shadow: 0.2em 0.5em 1em rgba(0,0,0,0.3);
+}
+
+.card > img {
+    width: 100%;
+}
+
+.wow-grid {
+    margin: 0 1rem;
+}
+
+@media (min-width: 30em) {
+    .wow-grid {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 5rem;
+    }
+
+.wow-grid__item {
+    flex: 1 1 300px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    max-width: 600px;
+}
+
+  @supports (display: grid) {
+    .wow-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 2em;
+    }
+    
+    .wow-grid__item {
+        max-width: initial;
+        margin: 0;
+    }
+  }
+}
+
+.wow-grid {
+    margin: 0 1rem;
+    perspective: 500px;
+}
+
+
+.wow-grid__item {
+    animation: fly-in 600ms ease-in;
+}
+
+
+
+
+/* Name of the keyframe */
+@keyframes fly-in {
+    /* First or start keyframe */
+    0% {
+      transform: translateZ(-800px) rotateY(90deg);
+      opacity: 0;
+    }
+
+    /* Halfway point of keyframe */
+    56% {
+        transform: translateZ(-160px) rotateY(87deg);
+        opacity: 1;
+    }
+
+    /* Final keyframe */
+    100% {
+        transform: translateZ(0) rotateY(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+

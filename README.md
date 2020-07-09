@@ -29,19 +29,19 @@ Click here to test it out: [funACTIV App](https://agile-thicket-05064.herokuapp.
 
 # Interests and Hobbies
 
-Computer programming
-Electrical circuit design
-Math and Science...and in general learning how the universe works.
+Computer programming</br>
+Electrical circuit design</br>
+Math and Science...and in general learning how the universe works.</br>
 History
 
 # Professional interests
 
-Robotics and machine learning
-Genetic Engineering
-Space Exploration
-Fintech
-Research and Development
-Technology that can help improve human to human communication and cooperation
+Robotics and machine learning</br>
+Genetic Engineering</br>
+Space Exploration</br>
+Fintech</br>
+Research and Development</br>
+Technology that can help improve human to human communication and cooperation</br>
 Games and Entertainment
 
 # Special Thank You
