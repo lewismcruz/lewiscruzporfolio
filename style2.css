@@ -1,0 +1,17 @@
+body {
+    background-color: lightblue;
+    background-image: url(./Assets/modern_office_pic.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+hr {
+    border-top: 1px solid blue;
+}
+
+
+
+
+
+

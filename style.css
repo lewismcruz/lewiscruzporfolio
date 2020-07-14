@@ -1,7 +1,12 @@
 hr {
-    background-color: purple;
+    background-color: blue;
 }
 
+.fade {
+    height: 200px;
+    width: 400px;
+    background-image: linear-gradient(to right, white, yellow);
+}
 
 .button {
     padding: 1em;
