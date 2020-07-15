@@ -25,7 +25,7 @@ Celeste Bembry</br>
 Brandon Lopez</br>
 Lewis Cruz
 
-![funACTIV](https://github.com/lewismcruz/lewiscruzporfolio/blob/master/Assets/funactiv.png)
+![funACTIV](https://github.com/lewismcruz/lewiscruzporfolio/blob/master/Assets/funactiv_readme_small.png)
 
 Click here to test it out: [funACTIV App](https://agile-thicket-05064.herokuapp.com/)
 
