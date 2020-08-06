@@ -3,6 +3,9 @@
     font-size: calc(1vw + 0.6em);
 }
 
+html {
+    box-sizing: border-box;
+}
 *,
 *::before,
 *::after {
@@ -10,7 +13,10 @@
 }
 
 body {
-    background-color: #020e53 ;
+    /* background-color: #020e53 ; */
+    background-color: hsl(200, 80%, 30%);
+    background-image: radial-gradient(hsl(200, 80%, 30%), hsl(210, 80%, 20%));
+    font-family: Raleway, Helvetica, Arial, sans-serif;
     
 }
 
@@ -22,15 +28,25 @@ hr {
     border-top: 2px solid blue;
 }
 
-
 h2, h3 {
     text-align: center;
+}
+
+.container {
+    color: black;
+}
+
+.secondary {
+    text-align: left;
 }    
 
 .text-center {
     font-size: 20px;
-    color: blueviolet;
+    color: cyan;
 }
 
+#center {
+    text-align: center;
+}
 
 
