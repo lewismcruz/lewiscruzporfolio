@@ -18,6 +18,8 @@ body {
     background-image: radial-gradient(hsl(200, 80%, 30%), hsl(210, 80%, 20%));
     font-family: Raleway, Helvetica, Arial, sans-serif;
     
+    /* Don't need this since Bootstrap seems to over ride it -- min-height: 100vh; */
+    
 }
 
 .header {
